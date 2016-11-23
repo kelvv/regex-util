@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "A tool for regex match  in node.js，include  phone,email,address......",
   "main": "index.js",
-  "engines": { "node": ">=4.0.0" },
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava",
+    "test-dev": "ava --watch"
   },
   "repository": {
     "type": "git",
@@ -16,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/kelvv/regex-util/issues"
   },
-  "homepage": "https://github.com/kelvv/regex-util#readme"
+  "homepage": "https://github.com/kelvv/regex-util#readme",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "ava": "^0.17.0"
+  },
+  "dependencies": {
+    "underscore": "^1.8.3"
+  }
 }
