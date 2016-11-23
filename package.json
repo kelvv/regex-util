@@ -1,6 +1,6 @@
 {
   "name": "regex-util",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tool for regex match  in node.js，include  phone,email,address......",
   "main": "index.js",
   "engines": {

@@ -1,4 +1,4 @@
-const checker = require('./libs/checker');
+const checker = require('../libs/checker');
 const matcher = require('../libs/matcher');
 /**
  * Export the root object
