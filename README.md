@@ -26,23 +26,22 @@ regex-util.isIDCard('440682199011133238')
 
 * isIDCard  身份证检查
     ```
-   /**
-   * Check whether the content is IDCard
-   * @param {string} content
-   */
-   isIDCard = function( content )
+    /**
+    * Check whether the content is IDCard
+    * @param {string} content
+    */
     ```
 * isPassword  检查是否符合密码强度 (密码的强度必须是包含大小写字母和数字的组合，不能使用特殊字符，长度在8-10之间) ,
   参数可以调整
     ```
    /**
- * Check whether the password meets the requirements
- * @param {string} content
- * @param {boolean} isGroup  是否开启包含大小写字母和数字的组合
- * @param {boolean} acceptSpecial  能否使用特殊字符
- * @param {int} starLength   最低长度
- * @param {int} endLength   最高长度
- */
+   * Check whether the password meets the requirements
+   * @param {string} content
+   * @param {boolean} isGroup  是否开启包含大小写字母和数字的组合
+   * @param {boolean} acceptSpecial  能否使用特殊字符
+   * @param {int} starLength   最低长度
+   * @param {int} endLength   最高长度
+   */
    isPassword = function( content , isGroup , acceptSpecial , starLength , endLength)
     ```
 * isChinese  中文检查
