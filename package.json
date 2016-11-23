@@ -1,0 +1,20 @@
+{
+  "name": "regex-util",
+  "version": "1.0.0",
+  "description": "A tool for regex match  in node.js，include  phone,email,address......",
+  "main": "index.js",
+  "engines": { "node": ">=4.0.0" },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelvv/regex-util.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kelvv/regex-util/issues"
+  },
+  "homepage": "https://github.com/kelvv/regex-util#readme"
+}
