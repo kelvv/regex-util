@@ -30,6 +30,7 @@ regex-util.isIDCard('440682199011133238')
     * Check whether the content is IDCard
     * @param {string} content
     */
+    isIDCard = function( content )
     ```
 * isPassword  检查是否符合密码强度 (密码的强度必须是包含大小写字母和数字的组合，不能使用特殊字符，长度在8-10之间) ,
   参数可以调整
@@ -54,7 +55,7 @@ regex-util.isIDCard('440682199011133238')
     ```
  
 * isEmail  邮箱检查
-```
+    ```
    /**
    * Check whether the content is Email
    * @param {string} content
@@ -62,7 +63,7 @@ regex-util.isIDCard('440682199011133238')
    isEmail = function( content )
     ```
 * isMoney  金额检查
-```
+    ```
    /**
    * 检查文本是否是金额，支持小数点
    * @param {string} content
@@ -70,7 +71,7 @@ regex-util.isIDCard('440682199011133238')
    isMoney = function( content )
     ```
 * isPhone  手机号检查
-```
+    ```
    /**
    * Check whether the content is Phone
    * @param {string} content
@@ -79,8 +80,9 @@ regex-util.isIDCard('440682199011133238')
     ```
 
 ###Matcher
+
 * getPictures  获取html中的所有图片链接
-```
+    ```
    /**
    * @param {string} html
    */
