@@ -10,6 +10,5 @@ function matcher() {
  * @param {string} html
  */
 matcher.getPictures = function( html ){
-    console.log(html.match(/<(?:img|link)[^\n]+?(?:src|href)="([^"]+(?:png|jpg))"/g));
     return html.match(/<(?:img|link)[^\n]+?(?:src|href)="([^"]+(?:png|jpg))"/g);
 }

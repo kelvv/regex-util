@@ -60,7 +60,7 @@ checker.isIDCard = function( content ){
  * @param {string} content
  */
 checker.isMoney = function( content ){
-    return /^(?:(?!0)[1-9])+(?:\.\d+)?$/.test(content);
+    return /^(?:(?:0)|[^0]\d*)(\.\d+)?$/.test(content);
 }
 
 /**
@@ -70,3 +70,4 @@ checker.isMoney = function( content ){
 checker.isPhone = function( content ){
     return /^1[3|4|5|7|8][0-9]\d{8}$/.test(content);
 }
+
