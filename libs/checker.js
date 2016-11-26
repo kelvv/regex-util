@@ -52,7 +52,7 @@ checker.isEmail = function( content ){
  * @param {string} content
  */
 checker.isIDCard = function( content ){
-    return /(?:^\d{15}$)|(?:^\d{17}(?:[0-9]|X)$)/.test(content);
+    return /^[1-9]\d{5}[1-9]\d{3}((0\d)|(1[0-2]))(([0|1|2]\d)|3[0-1])\d{3}(?:[0-9]|X)$|^[1-9]\d{7}((0\d)|(1[0-2]))(([0|1|2]\d)|3[0-1])\d{3}$/.test(content);
 }
 
 /**
