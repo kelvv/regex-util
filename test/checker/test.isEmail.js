@@ -3,6 +3,10 @@ const checker = require('../../libs/checker')
 const assert = require('assert')
 
 test('邮箱验证', t => {
+  assert(checker.isEmail('email-test@universal-acceptance-test.international') === true)
+  assert(checker.isEmail('email-test@universal-acceptance-test.icu') === true)
+  assert(checker.isEmail('อีเมลทดสอบ@ยูเอทดสอบ.ไทย') === true)
+  assert(checker.isEmail('อีเมลทดสอบ@ทีเอชนิค.องค์กร.ไทย') === true)
   assert(checker.isEmail('511363759@qq.com') === true)
   assert(checker.isEmail('kelvv@outlook.com') === true)
   assert(checker.isEmail('xxxxÄxx@xxx-xxx.com.hk') === false)
