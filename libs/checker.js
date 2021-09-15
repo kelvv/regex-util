@@ -44,7 +44,7 @@ checker.isChinese = function (content) {
  * @param {string} content
  */
 checker.isEmail = function (content) {
-  return /^[\w-_]+@[\w-_]+(?:\.\w+)+$/.test(content)
+  return /^[a-z0-9ก-๛\-]+@[ก-๛a-z][ก-๛a-z0-9\+\-\.]*[ก-๛a-z]{2,}$/.test(content)
 }
 
 /**
